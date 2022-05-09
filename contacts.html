@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact US</title>
+    <style>
+        body{
+            background-image: url('Assests/bg-image3.jpg');
+        }
+        .input{
+            width: 300px;
+            background-color: transparent;
+            color: goldenrod;
+            margin-left: 600px;
+            margin-top: 50px;
+        }
+        .btn1{
+            width: 310px;
+            border-radius: 12px;
+            background: rgb(238,174,202);
+            background: radial-gradient(circle, rgb(117, 207, 252) 0%, rgb(69, 245, 145) 100%);
+            border: none;
+            padding: 3px;
+            cursor: pointer;
+        }
+        .btn1:hover{
+            border-radius: 12px;
+            background: rgb(238,174,202);
+            background: radial-gradient(circle, rgb(253, 150, 48) 0%, rgb(242, 44, 14) 100%);
+            border: none;
+            padding: 3px;
+        }
+        .nav{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            background-color: transparent;
+            padding: 10px;
+        }
+        .btn{
+            width: 150px;
+            padding: 5px;
+            background-color: transparent;
+            border: none;
+            color: salmon;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="index.html"><button class="btn">Home</button></a>
+        <a href="menus.html"><button class="btn">Menus</button></a>
+        <a href="contacts.html"><button class="btn">Contact US</button></a>
+        <a href="about.html"><button class="btn">About US</button></a>
+        <a href="book.html"><button class="btn">Book Table</button></a><br><br>
+    </div>
+    <form>
+        <input type="text" placeholder="Enter Your Name" class="input"><br><br>
+        <input type="text" placeholder="Enter Your Email" class="input"><br><br>
+        <input type="text" placeholder="Enter Your Mobile Number" class="input"><br><br>
+        <a href="submit.html" class="input"><input type="button" value="Submit" class="btn1"></a>
+    </form>
+</body>
+</html>

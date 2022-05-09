@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback Form</title>
+    <style>
+        body{
+            background-image: url('Assests/bg-image3.jpg');
+            margin-left: 450px;
+        }
+        .heading{
+            font-size: 35px;
+            background: -webkit-linear-gradient(rgb(225, 14, 14), rgb(74, 17, 233));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        #box1{
+            display:flex;    
+            justify-content:end;
+            cursor: pointer;
+            margin-top: 220px;
+        }
+        .btn1{
+            width:610px;
+            padding: 5px;
+            border-radius: 12px;
+            background: rgb(238,174,202);
+            background: radial-gradient(circle, rgb(117, 207, 252) 0%, rgb(69, 245, 145) 100%);
+            border: none;
+            cursor: pointer;
+        }
+        .btn1:hover{
+            width:610px;
+            padding: 5px;
+            border-radius: 12px;
+            background: rgb(238,174,202);
+            background: radial-gradient(circle, rgb(253, 150, 48) 0%, rgb(242, 44, 14) 100%);
+            border: none;
+        }
+        .nav{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            background-color: transparent;
+            padding: 10px;
+        }
+        .btn{
+            width: 150px;
+            padding: 5px;
+            background-color: transparent;
+            border: none;
+            color: salmon;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="index.html"><button class="btn">Home</button></a>
+        <a href="menus.html"><button class="btn">Menus</button></a>
+        <a href="contacts.html"><button class="btn">Contact US</button></a>
+        <a href="about.html"><button class="btn">About US</button></a>
+        <a href="book.html"><button class="btn">Book Table</button></a>
+    </div>
+    <h2 class="heading">Your Feedback IS Very Important For Us</h2>
+    <textarea style="background-color:transparent;color: greenyellow;height: 300px;width: 600px;border: none; ">Write Your Views Here</textarea><br>
+    <a href="feed-submit.html"><button class="btn1">Submit</button></a>
+    <div id="box1">
+        <a href="tel:+918380981074"><img src="Assests/phone.png" height="50" width="50px"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a href="mailto:Amitdorle111@gmail.com"><img src="Assests/gmail1.png" height="50" width="50px"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.twitter.com" target="_blank"><img src="Assests/twitter.png" height="50" width="50px"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.instagram.com" target="_blank"><img src="Assests/instagram.png" height="50" width="50px"></a>
+    </div>
+</body>
+</html>

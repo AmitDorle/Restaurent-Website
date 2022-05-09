@@ -1,0 +1,25 @@
+body{
+    background-image: url('Assests/bg-image3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: transparent;
+    padding: 10px;
+}
+.btn{
+    width: 150px;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    color: salmon;
+    cursor: pointer;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}

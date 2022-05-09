@@ -1,0 +1,43 @@
+.heading{
+    text-align: center;
+    color: red;
+
+}
+body{
+    background-color:teal;
+    background-image: url('Assests/bg-image3.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.container{
+    height: 500px;
+    width: 300px;
+    background-color: transparent;
+    margin-left: 600px;
+}
+.select-div{
+    text-align: center;
+    size: 30px;
+    color: red;
+}
+.btn{
+    width: 100px;
+    border: 2px green solid;
+    border-radius: 7px 7px 7px 7px;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px red;
+    color: darkorange;
+}
+.btn:hover{
+    border: 2px red solid;
+    box-shadow: 1px 1px 2px gold;
+}
+.img{
+    position: fixed;
+}
+#box1{
+    display:flex;    
+    justify-content:end;
+    cursor: pointer;
+    margin-top: 180px;
+}

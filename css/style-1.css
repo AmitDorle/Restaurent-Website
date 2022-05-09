@@ -1,0 +1,54 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 30px;
+ 
+}
+.btn{
+    width: 150px;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    color: salmon;
+    cursor: pointer;
+}
+.book{
+
+    display: inline-block;
+    height: 350px;
+    width: 400px;
+    margin-top: 80px;
+    margin-left: 150px;
+    vertical-align: top;
+    color:rgb(26, 249, 74);
+    
+   
+}
+.book .text{
+    width: 510px;
+    height: 25px;
+}
+.book-btn{
+    margin-left: 142px;
+    padding: 5px;
+}
+.book-table{
+   cursor:pointer;
+   width: 1070px;
+   border-radius: 5px;
+   padding: 5px;
+   background-color: green;
+}
+.book-table:hover{
+    cursor:pointer;
+    width: 1070px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: gray;
+ }
+.head-book{
+    margin-left: 150px;
+    color: rgb(254, 8, 8);
+}
+

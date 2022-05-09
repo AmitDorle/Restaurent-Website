@@ -1,0 +1,150 @@
+body{
+    background-color: rgb(241, 235, 226);
+    margin-top: 50px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgb(122, 221, 240) 0%, rgb(230, 140, 250) 100%);
+    padding: 22px;
+    width: 100%;
+}
+.nav-btn{
+    padding: 10px;
+    width: 150px;
+    border-radius: 12px;
+    border: none;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    cursor: pointer;
+}
+.nav-btn:hover{
+    padding: 10px;
+    width: 150px;
+    border-radius: 12px;
+    border: none;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgb(117, 252, 167) 0%, rgb(245, 178, 69) 100%);
+    cursor: pointer;
+}
+.btn-order{
+    width: 180px;
+    padding:7px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgb(172, 109, 240) 0%, rgb(99, 218, 245) 100%);
+    cursor: pointer;
+}
+.btn-order:hover{
+    width: 180px;
+    padding:7px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgb(254, 64, 47), rgb(218, 177, 250) 100%);
+    cursor: pointer;
+}
+
+.heading{
+    font-size: 60px;
+    background: -webkit-linear-gradient(rgb(240, 164, 164), #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.heading2{
+    font-size: 60px;
+    background: -webkit-linear-gradient(rgb(249, 4, 4), rgb(53, 230, 212));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.special-heading{
+    font-size: 50px;
+    background: -webkit-linear-gradient(rgb(20, 216, 230), rgb(55, 226, 146));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.parent1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.special-dish{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
+.special-dish:hover{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px violet;
+}
+
+
+.div1{
+    height: 450px;
+    width: 300px;
+    background-color: transparent;
+    border: none;
+    
+}
+.special-div{
+    height: 450px;
+    width: 250px;
+    border: none;
+}
+.our-special-info{
+    text-align: left;
+    font-size: 25px;
+    background: -webkit-linear-gradient(rgb(117, 15, 41), rgb(62, 69, 214));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.parent2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.div2{
+    height: 250px;
+    width: 420px;
+    background-color: rgb(206, 219, 206);
+    box-shadow: 2px 2px 2px orange;
+    display: flex;
+}
+.div2:hover{
+    box-shadow: 2px 2px 2px greenyellow;
+}
+.parent3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgb(244, 138, 229) 0%, rgb(83, 212, 238) 100%);
+    height:300px;
+    margin-top: 100px;
+}
+.flat-icon{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 60px;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+.flat-icon:hover{
+    height: 180px;
+    width: 180px;
+    margin-bottom: 60px;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+.btn-go-top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 15px;
+}
