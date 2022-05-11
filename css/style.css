@@ -52,10 +52,9 @@ body {
 }
 
 .banner {
-   
+    position: relative;
     width: 100%;
 }
-
 .banner img {
     width: 100%;
 }
