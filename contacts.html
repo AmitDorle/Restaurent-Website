@@ -10,8 +10,12 @@
             width: 300px;
             background-color: transparent;
             color: goldenrod;
-            margin-left: 600px;
             margin-top: 50px;
+        }
+        .form{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
         }
         .btn1{
             width: 310px;
@@ -54,11 +58,13 @@
         <a href="about.html"><button class="btn">About US</button></a>
         <a href="book.html"><button class="btn">Book Table</button></a><br><br>
     </div>
-    <form>
-        <input type="text" placeholder="Enter Your Name" class="input"><br><br>
-        <input type="text" placeholder="Enter Your Email" class="input"><br><br>
-        <input type="text" placeholder="Enter Your Mobile Number" class="input"><br><br>
-        <a href="submit.html" class="input"><input type="button" value="Submit" class="btn1"></a>
-    </form>
+    <div class="form">
+        <form>
+            <input type="text" placeholder="Enter Your Name" class="input"><br><br>
+            <input type="text" placeholder="Enter Your Email" class="input"><br><br>
+            <input type="text" placeholder="Enter Your Mobile Number" class="input"><br><br>
+            <a href="submit.html" class="input"><input type="button" value="Submit" class="btn1"></a>
+        </form>
+    </div>
 </body>
 </html>
