@@ -234,20 +234,20 @@ body {
     box-shadow: 2px 2px 2px greenyellow;
 }
 
-.container1 {
+.row {
     height: 400px;
 
 
 }
 
-.container1 img {
+.row img {
     width: 450px;
     margin-left: 50px;
     border-radius: 10px;
     box-shadow: 6px 2px 4px 10px rgb(86, 70, 70);
 }
 
-.container1 img:hover {
+.row img:hover {
     border-radius: 20px;
     box-shadow: 5px 2px 10px rgb(14, 13, 13);
 
@@ -269,7 +269,7 @@ body {
     font-size: 50px;
 }
 
-.container1 .head2 {
+.row .head2 {
     text-align: center;
 }
 
