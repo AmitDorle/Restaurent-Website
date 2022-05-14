@@ -1,5 +1,5 @@
 body {
-    background-image: url('Assests/main3.jpg');
+    background-image: url('Assests/div4.jpg');
 }
 
 .first-video {
@@ -16,14 +16,17 @@ body {
 
 .h1 {
     font-size: 40px;
-    background: -webkit-linear-gradient(rgb(245, 6, 6), rgb(33, 8, 255));
+    background: -webkit-linear-gradient(rgb(0, 255, 34), rgb(255, 183, 0));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-style: normal;
 }
+
 .box-3 {
     border-radius: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(35, 220, 237);
+    background-color: black;
 }
 
 .row {
@@ -95,11 +98,13 @@ body {
     height: 40px;
     width: 300px;
 }
-.img{
+
+.img {
     border-radius: 20px;
-    box-shadow:3px 2px 3px rgb(238, 19, 85);
+    box-shadow: 3px 2px 3px rgb(238, 19, 85);
 }
-.chef-sr-head{
+
+.chef-sr-head {
     background: rgb(238, 174, 202);
     background: radial-gradient(circle, rgb(252, 106, 38), rgb(110, 152, 251) 100%);
     width: 100%;

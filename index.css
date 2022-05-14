@@ -1,16 +1,18 @@
-body{
+body {
     background-image: url('Assests/bg-image3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
-.nav{
+
+.nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     background-color: transparent;
     padding: 10px;
 }
-.btn{
+
+.btn {
     width: 150px;
     padding: 5px;
     background-color: transparent;
@@ -18,7 +20,8 @@ body{
     color: salmon;
     cursor: pointer;
 }
-.head{
+
+.head {
     display: flex;
     flex-direction: column;
     justify-content: end;

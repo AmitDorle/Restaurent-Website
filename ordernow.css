@@ -1,36 +1,50 @@
-.heading{
+.heading {
     text-align: center;
     color: red;
+    font-size: 40px;
 
 }
-body{
-    background-image: url('Assests/main3.jpg');
+
+body {
+    background-image: url('Assests/div4.jpg');
 }
-.container{
+
+.container {
     background-color: transparent;
     display: flex;
     justify-content: center;
 }
-.select-div{
+
+.select-div {
     text-align: center;
     size: 30px;
     color: red;
+    font-size: 25px;
+    background-color: rgb(228, 207, 207);
+    height: 600px;
+    width: 600px;
+    border-radius: 45px;
 }
-.btn{
-    width: 100px;
+
+.btn {
+    width: 200px;
+    height: 40px;
     border: 2px green solid;
     border-radius: 7px 7px 7px 7px;
     cursor: pointer;
     box-shadow: 1px 1px 2px red;
-    color: darkorange;
+    color: rgb(0, 8, 2);
 }
-.btn:hover{
+
+.btn:hover {
     border: 2px red solid;
     box-shadow: 1px 1px 2px gold;
+    color: green;
 }
-#box1{
-    display:flex;    
-    justify-content:center;
+
+#box1 {
+    display: flex;
+    justify-content: center;
     cursor: pointer;
     margin-top: 180px;
 }
