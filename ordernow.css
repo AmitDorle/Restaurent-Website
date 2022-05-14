@@ -4,10 +4,7 @@
 
 }
 body{
-    background-color:teal;
-    background-image: url('Assests/bg-image3.jpg');
-    background-repeat: no-repeat;
-    background-size:cover;
+    background-image: url('Assests/main3.jpg');
 }
 .container{
     background-color: transparent;
