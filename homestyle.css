@@ -35,14 +35,20 @@
 }
 
 .spcl-dish {
-    color: gray;
+    background-color: rgb(206, 250, 222);
     border: 1px solid rgb(211, 250, 246);
-    box-shadow: 15px 3px 2px 1px rgb(185, 201, 194);
+    box-shadow: 8px 3px 2px 1px rgb(185, 201, 194);
     border-radius: 15px;
     text-align: center;
     margin-top: 60px;
     width: 280px;
     height: 540px;
+    
+}
+.speial-dish-heading{
+    background: -webkit-linear-gradient(rgb(245, 15, 7), rgb(48, 254, 7));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .spcl-dish:hover {
@@ -61,7 +67,7 @@
 
 .special-heading {
     font-size: 50px;
-    background: -webkit-linear-gradient(rgb(48, 243, 48), rgb(75, 150, 254));
+    background: -webkit-linear-gradient(rgb(0, 255, 0), rgb(25, 5, 252));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -95,7 +101,7 @@
 .about-us-head {
     text-align: top;
     text-align: center;
-    background: -webkit-linear-gradient(rgb(232, 224, 252), rgb(35, 250, 100));
+    background: -webkit-linear-gradient(rgb(37, 4, 118), rgb(6, 124, 108));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 50px;
@@ -144,7 +150,7 @@
 }
 .feedback-heading{
     font-size: 40px;
-    background: -webkit-linear-gradient(rgb(240, 164, 164), rgb(51, 51, 51));
+    background: -webkit-linear-gradient(rgb(242, 100, 100), rgb(60, 59, 59));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -161,6 +167,7 @@
     border-radius: 20px;
     border: 1px;
     height: 450px;
+    color:  #c6ff1a;
 
 }
 
@@ -170,8 +177,8 @@
 
 }
 .feed img {
-    width: 60px;
-    height: 60px;
+    width: 170px;
+    height: 180px;
     border-radius: 50%;
 }
 
