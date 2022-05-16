@@ -1,0 +1,188 @@
+.First-Heading-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.first-heading {
+    text-align: center;
+    color: gray;
+}
+
+.first-btn {
+    padding: 5px;
+    width: 150px;
+    border-radius: 12px;
+    border: none;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    cursor: pointer;
+    color: black;
+    font-size: 16px;
+}
+
+.first-btn:hover {
+    background: rgb(149, 245, 202);
+    background: radial-gradient(circle, rgb(153, 229, 149) 0%, rgb(106, 200, 244) 100%);
+}
+
+.special-items {
+    vertical-align: top;
+    margin-bottom: 50px;
+    color: gray;
+    display: flex;
+    justify-content: center;
+}
+
+.spcl-dish {
+    color: gray;
+    border: 1px solid rgb(211, 250, 246);
+    box-shadow: 15px 3px 2px 1px rgb(185, 201, 194);
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 60px;
+    width: 280px;
+    height: 540px;
+}
+
+.spcl-dish:hover {
+    margin-top: 20px;
+    box-shadow: 0px 0px 20px 0px rgb(176, 236, 198);
+    border: none;
+
+}
+
+.spcl-info {
+    width: 280px;
+    height: 540px;
+    margin-top: 50px;
+    color: white;
+}
+
+.special-heading {
+    font-size: 50px;
+    background: -webkit-linear-gradient(rgb(48, 243, 48), rgb(75, 150, 254));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.our-special-info {
+    text-align: left;
+    font-size: 25px;
+    background: -webkit-linear-gradient(rgb(84, 16, 242), rgb(250, 41, 128));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.spcl-img {
+    height: 190px;
+    width: 280px;
+    border-radius: 15px;
+}
+
+.about-us-content {
+    margin-top: 18px;
+}
+
+.About-us-heading {
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Water Brush', cursive;
+    font-size: 50px;
+
+}
+
+.about-us-head {
+    text-align: top;
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(232, 224, 252), rgb(35, 250, 100));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.about {
+    color: gray;
+    background-color: aquamarine;
+}
+
+.btn2 {
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    color: black;
+    margin-top: 25px;
+    padding: 5px;
+    text-align: center;
+}
+
+.btn2:hover {
+    background: rgb(149, 245, 202);
+    background: radial-gradient(circle, rgb(153, 229, 149) 0%, rgb(106, 200, 244) 100%);
+
+}
+.view img {
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 6px 2px 4px 7px rgb(86, 70, 70);
+}
+
+.view img:hover {
+    box-shadow: 2px 2px 3px 2px rgb(37, 4, 4);
+}
+.feedback-heading-container{
+    display: flex;
+    justify-content: center;
+}
+.feedback-container{
+    display: flex;
+}
+.feedback-heading{
+    font-size: 40px;
+    background: -webkit-linear-gradient(rgb(240, 164, 164), rgb(51, 51, 51));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.row {
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.feed{
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgb(98, 249, 249), rgb(40, 73, 33) 100%);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px;
+    height: 450px;
+
+}
+
+.feed:hover {
+    border-radius: 60px;
+    box-shadow: 5px 2px 8px 3px rgb(237, 253, 215);
+
+}
+.feed img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.feed img:hover {
+    border: 1.5px solid greenyellow;
+}
+.btn-go-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 15px;
+}
