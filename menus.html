@@ -11,7 +11,19 @@
             background-color: rgba(218, 103, 103, 0.737);
         }
     </style>
+    <script>
+        let IndScore = 0;
 
+
+        function increaseIndScore() {
+            IndScore++;
+            document.getElementById('counterI').innerHTML = IndScore;
+        }
+        function decreaseIndScore() {
+            IndScore--;
+            document.getElementById('counterI').innerHTML = IndScore;
+        }
+    </script>
 </head>
 
 <body>
@@ -67,6 +79,11 @@
                 ₹299<br><br>
                 5.0⭐⭐⭐⭐⭐(9)<br><br>
                 55 mins<br><br><br>
+                <div class="btn-container">
+                    <button class="score-btn" onclick="decreaseIndScore()">-</button>
+                    <p class="team-score" id="counterI">0</p>
+                    <button class="score-btn" onclick="increaseIndScore()">+</button>
+                </div>
                 <a href="ordernow.html"><button class="btn-order">Order Now</button></a>
             </h6>
         </div>
