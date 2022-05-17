@@ -1,3 +1,4 @@
+
 .First-Heading-container {
     display: flex;
     justify-content: center;
@@ -105,13 +106,22 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 50px;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .about {
     color: gray;
+    background: rgb(149, 245, 202);
+    background: radial-gradient(circle, rgb(158, 245, 151) 0%, rgb(83, 196, 249) 100%);
+    border-radius: 30px;
+    box-shadow: 2px 2px 3px 3px black;
+    opacity: 95%;
+}
+.about:hover{
+    color: gray;
     background-color: aquamarine;
+    border-radius: 30px;
+    box-shadow: 1px 1px 2px 2px darkorange;
 }
 
 .btn2 {
@@ -135,7 +145,7 @@
 .view img {
     height: 250px;
     border-radius: 10px;
-    box-shadow: 6px 2px 4px 7px rgb(86, 70, 70);
+    box-shadow: 4px 2px 4px 4px rgb(86, 70, 70);
 }
 
 .view img:hover {
@@ -167,7 +177,7 @@
     border-radius: 20px;
     border: 1px;
     height: 450px;
-    color:  #c6ff1a;
+    color:  whitesmoke;
 
 }
 

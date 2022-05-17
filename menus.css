@@ -1,9 +1,3 @@
-body {
-    background-color: rgba(250, 244, 244, 0.737);
-    margin-top: 50px;
-    background-image: url('Assests/main3.jpg');
-}
-
 .navbar {
     position: fixed;
     background: rgb(238, 174, 202);
