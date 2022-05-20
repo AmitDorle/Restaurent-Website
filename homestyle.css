@@ -7,7 +7,7 @@
 
 .first-heading {
     text-align: center;
-    color:rgb(16, 146, 150);
+    color:rgb(113, 96, 108);
 }
 
 .first-btn {
@@ -30,13 +30,13 @@
 .special-items {
     vertical-align: top;
     margin-bottom: 50px;
-    color: gray;
+    color: rgb(128, 128, 128);
     display: flex;
     justify-content: center;
 }
 
 .spcl-dish {
-    background-color: rgb(206, 250, 222);
+    background-color: rgb(205, 201, 188);
     border: 1px solid rgb(211, 250, 246);
     box-shadow: 8px 3px 2px 1px rgb(185, 201, 194);
     border-radius: 15px;
