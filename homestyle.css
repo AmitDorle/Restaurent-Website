@@ -2,12 +2,13 @@
 .First-Heading-container {
     display: flex;
     justify-content: center;
+   
 
 }
 
 .first-heading {
     text-align: center;
-    color:rgb(113, 96, 108);
+    color:rgb(248, 255, 248);
 }
 
 .first-btn {
