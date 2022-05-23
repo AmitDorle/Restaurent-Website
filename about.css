@@ -1,12 +1,10 @@
-body {
-    background-image: url('Assests/div4.jpg');
-}
-
 .first-video {
     display: flex;
     justify-content: center;
 }
-
+body {
+    background-color: rgb(249, 235, 235);
+}
 .box-1 {
     height: 200px;
     width: 700px;
